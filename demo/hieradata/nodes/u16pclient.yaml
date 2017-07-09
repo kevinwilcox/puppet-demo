@@ -1,0 +1,12 @@
+# hiera lookup data for the system 'u16pclient'
+rabbitmq::nodename: u16pclient
+# the file in /etc/puppetlabs/code/modules/logstash/templates is named 'empty.conf'
+# when hiera create_resources runs, it creates /etc/logstash/conf.d/001.conf
+# the numbering is important because logstash concats all of the files in
+# /etc/logstash/conf.d/ in order so you can use naming as a pipeline of sorts
+'logstash_configs': {
+  '001.conf': {
+    'template': 'logstash/empty.conf'
+  }
+}
+elasticsearch::nodename: u16pclient

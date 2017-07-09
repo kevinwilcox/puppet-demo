@@ -1,0 +1,15 @@
+{
+  "name": "kevinwilcox-profiles",
+  "version": "0.0.2",
+  "author": "kevinwilcox",
+  "summary": "This module allows implementation of server profiles; a profile is a collection of other modules with some specific configuration items that may not need to be in separate classes",
+  "license": "BSD-3",
+  "source": "",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+

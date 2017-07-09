@@ -1,0 +1,15 @@
+{
+  "name": "kevinwilcox-common_services",
+  "version": "0.0.3",
+  "author": "kevinwilcox",
+  "summary": "This module allows enabling of common services; eventually these will be broken into their own modules.",
+  "license": "BSD-3",
+  "source": "",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+

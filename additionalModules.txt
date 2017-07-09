@@ -1,0 +1,15 @@
+https://forge.puppet.com/puppetlabs/apt
+sudo /opt/puppetlabs/bin/puppet module install puppetlabs-apt --version 4.1.0
+
+https://forge.puppet.com/elastic/logstash
+sudo /opt/puppetlabs/bin/puppet module install elastic-logstash --version 5.3.0
+
+https://forge.puppet.com/elastic/elasticsearch
+sudo /opt/puppetlabs/bin/puppet module install elastic-elasticsearch --version 5.3.1
+
+https://forge.puppet.com/elastic/kibana
+sudo /opt/puppetlabs/bin/puppet module install elastic-kibana --version 5.0.0
+
+https://forge.puppet.com/puppetlabs/rabbitmq
+sudo /opt/puppetlabs/bin/puppet module install puppetlabs-rabbitmq --version 5.6.0
+
